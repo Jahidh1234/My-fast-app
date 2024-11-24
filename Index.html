@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Receiver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SMS Receiver</h1>
+        <form id="smsForm">
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+            
+            <button type="submit">Send</button>
+        </form>
+        <div id="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
